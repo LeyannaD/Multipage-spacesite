@@ -1,0 +1,50 @@
+*{
+  color: white;
+}
+
+body{
+  background-image:url(https://miro.medium.com/max/1200/1*9IIoxOcIbhMFFKMCI2ncuQ.jpeg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  font-family: Lucida Bright;
+  font-size: 16px;
+ }
+
+/* not excuted as a code*/ 
+/*  
+ h1,a,p{ 
+  color:white;
+}
+*/
+ol{
+  list-style-position: inside;
+}
+
+img{
+  width: 40%;
+  margin: 30px;
+}
+h1:first-letter, a:first-letter {
+  font-size:2em;
+}
+a[target-_"blank"] {
+  color:blue;
+  background-color:white;
+}
+
+nav a:hover{
+  background-color: lightblue;
+  color:orange ;
+}
+
+nav a:active{
+  background-color:green;
+  color:yellow;
+}
+main{
+  text-align: center;
+  width:75%;
+  margin:0 auto;
+  line-height: 35px;
+}
+
